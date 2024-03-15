@@ -15,14 +15,14 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
   threejs,
+  upwork,
+  startupLogo,
+  muzeLogo,
+  medsolmeLogo,
 } from "../assets";
 
 export const navLinks = [
@@ -117,10 +117,22 @@ const technologies = [
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    company_name: "Freelancing",
+    icon: upwork,
+    iconBg: "#accbe1",
+    date: "Dec 2021 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "React.js & Native Developer",
+    company_name: "Softigital",
+    icon: startupLogo,
+    iconBg: "#fbc3bc",
+    date: "Jan 2022 - Jun 2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,11 +141,11 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "React.js & Native Developer",
+    company_name: "Muze",
+    icon: muzeLogo,
+    iconBg: "#b7e4c7",
+    date: "Aug 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,24 +154,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "React.js",
+    company_name: "Medsol;",
+    icon: medsolmeLogo,
+    iconBg: "#fbc3bc",
+    date: "Jun 2023 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -198,33 +197,33 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Muze",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Crafted a unique social media platform, Muze, tailored for musicians with features such as video posting, appointment booking, and real-time messaging via web sockets.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "webSockets",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "styledComponent",
         color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://purple-river-08ce99210.4.azurestaticapps.net/",
   },
   {
-    name: "Job IT",
+    name: "Jobit Mobile Application",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a comprehensive mobile application, Jobit, consolidating job opportunities from various platforms, including Upwork, Fiverr, Freelance, and LinkedIn, providing users with a unified hub for streamlined job searching.",
     tags: [
       {
-        name: "react",
+        name: "reactNative",
         color: "blue-text-gradient",
       },
       {
@@ -237,20 +236,20 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/HlemoXGamer/jobit",
   },
   {
-    name: "Trip Guide",
+    name: "Medical Solution",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Designed the Medsol website for the sale and provision of medical solutions, offering a user-friendly platform to access essential resources from more than 15 companies.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
-        color: "green-text-gradient",
+        name: "firebase",
+        color: "orange-text-gradient",
       },
       {
         name: "css",
@@ -258,7 +257,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://medsol.netlify.app/",
   },
 ];
 
