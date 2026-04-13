@@ -25,10 +25,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import medsolmeLogo from "./company/medsolmeLogo.jpeg";
-import muzeLogo from "./company/muzeLogo.jpeg";
-import startupLogo from "./company/startupLogo.jpeg";
-import upwork from "./company/upwork.svg";
+import bitechLogo from "./company/bi_techn_logo.jpg";
+import muzeLogo from "./company/muze-logo.jpg";
+import softigitalLogo from "./company/softigital_logo.jpg";
 
 export {
   logo,
@@ -55,8 +54,7 @@ export {
   carrent,
   jobit,
   tripguide,
-  medsolmeLogo,
+  bitechLogo,
   muzeLogo,
-  startupLogo,
-  upwork,
+  softigitalLogo,
 };

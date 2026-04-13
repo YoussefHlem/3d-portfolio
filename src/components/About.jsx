@@ -44,11 +44,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React and Node.js. I'm a
-        quick learner and collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your idea to life!
+        Senior Frontend Developer with 4+ years of expertise building scalable
+        enterprise applications using React and Next.js. Specialized in
+        architecting robust web solutions for HRM, PFP, and SaaS platforms with
+        GIS integration capabilities. Passionate about leveraging modern
+        technologies and best practices to solve complex business challenges
+        while maintaining code quality and ensuring seamless user experiences.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
