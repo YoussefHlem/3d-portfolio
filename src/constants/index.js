@@ -15,9 +15,6 @@ import {
   git,
   figma,
   docker,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   bitechLogo,
   muzeLogo,
@@ -184,67 +181,37 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Muze",
+    name: "HRM & PFP SaaS Dashboard",
     description:
-      "Crafted a unique social media platform, Muze, tailored for musicians with features such as video posting, appointment booking, and real-time messaging via web sockets.",
+      "Built a multi-tenant SaaS admin dashboard using Next.js 16, React 19, and TypeScript. Developed a powerful data table system with advanced filtering, sorting, and export features, including a SQL-like query builder.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "webSockets",
-        color: "green-text-gradient",
-      },
-      {
-        name: "styledComponent",
-        color: "pink-text-gradient",
-      },
+      { name: "Next.js", color: "blue-text-gradient" },
+      { name: "SaaS", color: "green-text-gradient" },
+      { name: "Data Tables", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    source_code_link: "https://purple-river-08ce99210.4.azurestaticapps.net/",
+    source_code_link: "https://github.com/YoussefHlem",
   },
   {
-    name: "Jobit Mobile Application",
+    name: "GIS Incident Management Platform",
     description:
-      "Developed a comprehensive mobile application, Jobit, consolidating job opportunities from various platforms, including Upwork, Fiverr, Freelance, and LinkedIn, providing users with a unified hub for streamlined job searching.",
+      "Developed a spatial data visualization platform integrating ArcGIS and Leaflet. Implemented real-time map interactions with synchronized table selection and scalable incident management across multiple service modules.",
     tags: [
-      {
-        name: "reactNative",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "ArcGIS", color: "blue-text-gradient" },
+      { name: "Leaflet", color: "green-text-gradient" },
+      { name: "Geospatial", color: "pink-text-gradient" },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/HlemoXGamer/jobit",
+    source_code_link: "https://github.com/YoussefHlem",
   },
   {
-    name: "Medical Solution",
+    name: "RBAC & Custom Fields Platform",
     description:
-      "Designed the Medsol website for the sale and provision of medical solutions, offering a user-friendly platform to access essential resources from more than 15 companies.",
+      "Engineered an enterprise-grade access control system with role-based permissions, dynamic custom fields, and bulk data operations. Applied clean architecture principles with layered system design.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "firebase",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "RBAC", color: "blue-text-gradient" },
+      { name: "Access Control", color: "green-text-gradient" },
+      { name: "Architecture", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    source_code_link: "https://medsol.netlify.app/",
+    source_code_link: "https://github.com/YoussefHlem",
   },
 ];
 
